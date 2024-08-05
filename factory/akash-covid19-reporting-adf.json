@@ -1,0 +1,9 @@
+{
+	"name": "akash-covid19-reporting-adf",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "29e2f5c8-f660-496e-bef0-ce3fe280ee55",
+		"tenantId": "9f2a074f-0d27-44a0-a376-c92f2f416f06"
+	}
+}
