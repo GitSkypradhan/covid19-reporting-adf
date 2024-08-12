@@ -2,11 +2,17 @@
 	"name": "tr_ingest_population_data",
 	"properties": {
 		"annotations": [],
-		"runtimeState": "Started",
+		"runtimeState": "Stopped",
 		"pipelines": [
 			{
 				"pipelineReference": {
 					"referenceName": "pl_ingest_population_data",
+					"type": "PipelineReference"
+				}
+			},
+			{
+				"pipelineReference": {
+					"referenceName": "pl_ingest_cases_deaths_data",
 					"type": "PipelineReference"
 				}
 			}
