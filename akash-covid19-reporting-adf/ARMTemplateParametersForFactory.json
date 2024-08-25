@@ -11,8 +11,29 @@
 		"ls_adls_covidreportingdl_accountKey": {
 			"value": ""
 		},
+		"ls_covid_cluster_clusterPassword": {
+			"value": ""
+		},
+		"ls_covid_cluster_clusterSshPassword": {
+			"value": ""
+		},
+		"ls_covid_cluster_servicePrincipalKey": {
+			"value": ""
+		},
 		"ls_adls_covidreportingdl_properties_typeProperties_url": {
 			"value": "https://akashcovid19repodl.dfs.core.windows.net/"
+		},
+		"ls_covid_cluster_properties_typeProperties_hostSubscriptionId": {
+			"value": "c6a5f9c4-849c-4c78-a5fb-44a2bceb283d"
+		},
+		"ls_covid_cluster_properties_typeProperties_clusterResourceGroup": {
+			"value": "covid-reporting-rg"
+		},
+		"ls_covid_cluster_properties_typeProperties_servicePrincipalId": {
+			"value": "35f7e152-531c-46f7-8aeb-e95b17aab6c2"
+		},
+		"ls_covid_cluster_properties_typeProperties_tenant": {
+			"value": "9f2a074f-0d27-44a0-a376-c92f2f416f06"
 		},
 		"ls_http_opendata_ecdc_europa_eu_properties_typeProperties_url": {
 			"value": "@{linkedService().sourceBaseURL}"
