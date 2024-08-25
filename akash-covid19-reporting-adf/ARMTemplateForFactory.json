@@ -1096,7 +1096,7 @@
 				"typeProperties": {
 					"clusterType": "hadoop",
 					"clusterSize": 4,
-					"timeToLive": "00:15:00",
+					"timeToLive": "00:30:00",
 					"version": "4.0",
 					"hostSubscriptionId": "[parameters('ls_hdi_covid_cluster_properties_typeProperties_hostSubscriptionId')]",
 					"clusterResourceGroup": "[parameters('ls_hdi_covid_cluster_properties_typeProperties_clusterResourceGroup')]",
