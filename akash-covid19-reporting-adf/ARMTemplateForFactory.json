@@ -35,6 +35,10 @@
 			"type": "string",
 			"defaultValue": "https://akashcovid19repodl.dfs.core.windows.net/"
 		},
+		"ls_db_covid_cluster_properties_typeProperties_existingClusterId": {
+			"type": "string",
+			"defaultValue": "0827-182150-10hylymz"
+		},
 		"ls_hdi_covid_cluster_properties_typeProperties_hostSubscriptionId": {
 			"type": "string",
 			"defaultValue": "c6a5f9c4-849c-4c78-a5fb-44a2bceb283d"
@@ -1268,14 +1272,7 @@
 						"type": "SecureString",
 						"value": "[parameters('ls_db_covid_cluster_accessToken')]"
 					},
-					"newClusterNodeType": "Standard_DS3_v2",
-					"newClusterNumOfWorker": "1",
-					"newClusterSparkEnvVars": {
-						"PYSPARK_PYTHON": "/databricks/python3/bin/python3"
-					},
-					"newClusterVersion": "10.4.x-scala2.12",
-					"clusterOption": "Fixed",
-					"newClusterInitScripts": []
+					"existingClusterId": "[parameters('ls_db_covid_cluster_properties_typeProperties_existingClusterId')]"
 				}
 			},
 			"dependsOn": []

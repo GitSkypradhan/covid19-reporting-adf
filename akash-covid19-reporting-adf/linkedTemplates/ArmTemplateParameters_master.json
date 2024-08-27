@@ -26,6 +26,9 @@
 		"ls_adls_covidreportingdl_properties_typeProperties_url": {
 			"value": "https://akashcovid19repodl.dfs.core.windows.net/"
 		},
+		"ls_db_covid_cluster_properties_typeProperties_existingClusterId": {
+			"value": "0827-182150-10hylymz"
+		},
 		"ls_hdi_covid_cluster_properties_typeProperties_hostSubscriptionId": {
 			"value": "c6a5f9c4-849c-4c78-a5fb-44a2bceb283d"
 		},
