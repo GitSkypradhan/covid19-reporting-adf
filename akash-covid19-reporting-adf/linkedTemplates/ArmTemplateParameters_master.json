@@ -23,6 +23,9 @@
 		"ls_hdi_covid_cluster_servicePrincipalKey": {
 			"value": ""
 		},
+		"ls_sql_covid_db_password": {
+			"value": ""
+		},
 		"ls_adls_covidreportingdl_properties_typeProperties_url": {
 			"value": "https://akashcovid19repodl.dfs.core.windows.net/"
 		},
@@ -46,6 +49,15 @@
 		},
 		"ls_http_opendata_ecdc_europa_eu_properties_typeProperties_url": {
 			"value": "@{linkedService().sourceBaseURL}"
+		},
+		"ls_sql_covid_db_properties_typeProperties_server": {
+			"value": "akash-covid19-srv.database.windows.net"
+		},
+		"ls_sql_covid_db_properties_typeProperties_database": {
+			"value": "covid19DB"
+		},
+		"ls_sql_covid_db_properties_typeProperties_userName": {
+			"value": "akash"
 		},
 		"tr_ingest_population_data_properties_typeProperties_scope": {
 			"value": "/subscriptions/c6a5f9c4-849c-4c78-a5fb-44a2bceb283d/resourceGroups/covid-reporting-rg/providers/Microsoft.Storage/storageAccounts/akashcovid19reposa"
