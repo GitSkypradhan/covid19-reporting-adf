@@ -59,7 +59,7 @@
 		"ls_sql_covid_db_properties_typeProperties_userName": {
 			"value": "akash"
 		},
-		"tr_ingest_population_data_properties_typeProperties_scope": {
+		"tr_population_data_arrived_properties_typeProperties_scope": {
 			"value": "/subscriptions/c6a5f9c4-849c-4c78-a5fb-44a2bceb283d/resourceGroups/covid-reporting-rg/providers/Microsoft.Storage/storageAccounts/akashcovid19reposa"
 		}
 	}
