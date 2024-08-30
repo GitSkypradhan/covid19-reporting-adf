@@ -191,7 +191,7 @@
 					"type": "LinkedServiceReference"
 				},
 				"folder": {
-					"name": "raw"
+					"name": "lookup"
 				},
 				"annotations": [],
 				"type": "DelimitedText",
@@ -244,7 +244,7 @@
 					"type": "LinkedServiceReference"
 				},
 				"folder": {
-					"name": "raw"
+					"name": "lookup"
 				},
 				"annotations": [],
 				"type": "DelimitedText",
@@ -514,7 +514,7 @@
 					"type": "LinkedServiceReference"
 				},
 				"folder": {
-					"name": "processed"
+					"name": "raw"
 				},
 				"annotations": [],
 				"type": "DelimitedText",
@@ -545,7 +545,7 @@
 					"type": "LinkedServiceReference"
 				},
 				"folder": {
-					"name": "processed"
+					"name": "raw"
 				},
 				"annotations": [],
 				"type": "DelimitedText",
@@ -576,7 +576,7 @@
 					"type": "LinkedServiceReference"
 				},
 				"folder": {
-					"name": "processed"
+					"name": "raw"
 				},
 				"annotations": [],
 				"type": "DelimitedText",
@@ -607,7 +607,7 @@
 					"type": "LinkedServiceReference"
 				},
 				"folder": {
-					"name": "processed"
+					"name": "raw"
 				},
 				"annotations": [],
 				"type": "DelimitedText",
