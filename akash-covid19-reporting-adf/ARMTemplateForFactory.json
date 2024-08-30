@@ -1500,7 +1500,7 @@
 					"type": "LinkedServiceReference"
 				},
 				"folder": {
-					"name": "raw"
+					"name": "processed"
 				},
 				"annotations": [],
 				"type": "DelimitedText",
@@ -1531,7 +1531,7 @@
 					"type": "LinkedServiceReference"
 				},
 				"folder": {
-					"name": "raw"
+					"name": "processed"
 				},
 				"annotations": [],
 				"type": "DelimitedText",
@@ -1562,7 +1562,7 @@
 					"type": "LinkedServiceReference"
 				},
 				"folder": {
-					"name": "raw"
+					"name": "processed"
 				},
 				"annotations": [],
 				"type": "DelimitedText",
@@ -1593,7 +1593,7 @@
 					"type": "LinkedServiceReference"
 				},
 				"folder": {
-					"name": "raw"
+					"name": "processed"
 				},
 				"annotations": [],
 				"type": "DelimitedText",
